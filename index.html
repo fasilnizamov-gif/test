@@ -5,37 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .number-title {
-      display: flex;
-      justify-content: space-between;
-    }
-  </style>
 </head>
 <body>
-  <div class="number-title">
-    <h2 class="number-title__text">
-      Какой-то заголовок
-    </h2>
-    <p class="number-title__content">
-      01
-    </p>
-  </div>
+  <main class="main">
+    <div class="container">
+      <h1 class=>Выбери свой продукт</h1>
+      
+      <ul class="products clear-list">
+        <li class="product__item card">
+          <img src="images/photo_1.png" alt="" class="card__image">
+          <span class="card__category">для нормальный кожи</span>
+          <h2 class="card__name">Увлажняющий мусс</h2>
+          <p class="card__descripshion">Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
+          <div class="card__compound compound">
+            <span class="card__nime">Состав</span>
+            <ul class="compoud__list">
+              <li>активные натуральные комплексы</li>
+              <li>витамины С, А, РР, В И Е</li>
+              <li>солнцезащитные компоненты</li>              
+            </ul>
+        </li>
+    </div>
 
-
-<h2 class="number-title__text">
-      Какой-то заголовок 2
-</h2>
-
-  <section style="width: 400px; margin: 0 auto;">
-    <div class="number-title">
-    <h2 class="number-title__text">
-      Какой-то заголовок 2
-    </h2>
-    <p class="number-title__content">
-      02
-    </p>
-  </div>
-  </section>
+    <div class="card__price">
+      <b>Цена:</b> 
+      <span>2 750 ₽</span>      
+    </div>
+  </main>
 </body>
 </html>
