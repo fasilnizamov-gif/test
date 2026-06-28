@@ -29,13 +29,14 @@ title {
 
 
 
-
 .card {
   background-color: #F7F7FA;
   padding: 25px;
   width: 100%;
 }
-
+.card--blue {
+  background-color: blue;
+}
 .card__image {
   display: block;
 }
@@ -55,8 +56,19 @@ title {
   gap: 45px;
 }
 
-.product__item {
+.products__item {
 width: 340px;
+
+}
+
+
+
+
+
+
+
+.sidebar__product {
+  width: 500px;
 }
 
 
