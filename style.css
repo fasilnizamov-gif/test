@@ -34,9 +34,11 @@ title {
   padding: 25px;
   width: 100%;
 }
+
 .card--blue {
   background-color: blue;
 }
+
 .card__image {
   display: block;
 }
@@ -49,6 +51,9 @@ title {
   text-transform: uppercase;
 }
 
+
+
+
 .products {
   display: flex; 
   flex-wrap: wrap;
@@ -58,11 +63,11 @@ title {
 
 .products__item {
 width: 340px;
-
 }
 
-
-
+.products__item--big {
+  width: 600px;
+}
 
 
 
