@@ -1,0 +1,22 @@
+
+.card {
+  background-color: #F7F7FA;
+  padding: 25px;
+  width: 100%;
+}
+
+.card--blue {
+  background-color: blue;
+}
+
+.card__image {
+  display: block;
+}
+
+.card__category {
+  display:block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #A0A0B2;
+  text-transform: uppercase;
+}
